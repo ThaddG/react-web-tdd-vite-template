@@ -2,6 +2,9 @@ import React, { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
 
+// EXAMPLE USE OF VITE ENV VARIABLE
+const example = import.meta.env.VITE_APP_EXAMPLE_VAR;
+
 function App() {
   const [count, setCount] = useState(0)
 
