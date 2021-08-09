@@ -1,5 +1,10 @@
 import React, { useState } from 'react'
 import logo from './logo.svg'
+
+// custom components
+import GuardedRoute from './components/GuardedRoute';
+
+// styles
 import './App.css'
 
 // EXAMPLE USE OF VITE ENV VARIABLE
